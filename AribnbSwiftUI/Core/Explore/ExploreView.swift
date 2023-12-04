@@ -11,6 +11,8 @@ struct ExploreView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
+                SearchAndFilterBar()
+                
                 LazyVStack(spacing: 32, content: {
                     ForEach(1...10, id: \.self) { count in
                         ListingItemView()

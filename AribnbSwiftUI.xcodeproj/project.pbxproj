@@ -13,6 +13,7 @@
 		832F605F2B1CD93C008CC30E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832F605E2B1CD93C008CC30E /* Preview Assets.xcassets */; };
 		837FCC8D2B1CFC7E005E5709 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837FCC8C2B1CFC7E005E5709 /* ExploreView.swift */; };
 		837FCC8F2B1CFDFE005E5709 /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837FCC8E2B1CFDFE005E5709 /* ListingItemView.swift */; };
+		837FCC912B1DB7E4005E5709 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837FCC902B1DB7E4005E5709 /* SearchAndFilterBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		832F605E2B1CD93C008CC30E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		837FCC8C2B1CFC7E005E5709 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		837FCC8E2B1CFDFE005E5709 /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
+		837FCC902B1DB7E4005E5709 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				837FCC8C2B1CFC7E005E5709 /* ExploreView.swift */,
+				837FCC902B1DB7E4005E5709 /* SearchAndFilterBar.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				837FCC8F2B1CFDFE005E5709 /* ListingItemView.swift in Sources */,
 				832F605A2B1CD939008CC30E /* ContentView.swift in Sources */,
 				837FCC8D2B1CFC7E005E5709 /* ExploreView.swift in Sources */,
+				837FCC912B1DB7E4005E5709 /* SearchAndFilterBar.swift in Sources */,
 				832F60582B1CD939008CC30E /* AribnbSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
